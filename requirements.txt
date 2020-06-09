@@ -1,11 +1,11 @@
-tensorflow-gpu>=1.15.2
+tensorflow-gpu==1.15.2
 umap-learn
 visdom
 webrtcvad
-librosa>=0.5.1
-matplotlib>=2.0.2
-numpy>=1.14.0
-scipy>=1.0.0
+librosa==0.5.1
+matplotlib==2.0.2
+numpy==1.14.0
+scipy==1.0.0
 tqdm
 sounddevice
 Unidecode

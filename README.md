@@ -6,7 +6,7 @@ This repository is a phonemic multilingual (Russian-English) implementation base
 ### [Example](https://soundcloud.com/fn5va3vghrkh/sets/multi-tacotron)
 
 ## Quick start
-Use the [colab online demo](https://colab.research.google.com/github/vlomme/Multi-Tacotron-Voice-Cloning/blob/master/Multi_Tacotron_Voice_Cloning.ipynb)
+Use the [colab online demo](https://colab.research.google.com/github/dedkoster/Multi-Tacotron-Voice-Cloning/blob/master/Multi_Tacotron_Voice_Cloning.ipynb)
 
 ### Requirements
 You will need the following whether you plan to use the toolbox only or to retrain the models.
@@ -45,11 +45,11 @@ or
 
 
 ## Wiki
-[Pretrained models](https://github.com/vlomme/Multi-Tacotron-Voice-Cloning/wiki/Pretrained-models)
+[Pretrained models](https://github.com/dedkoster/Multi-Tacotron-Voice-Cloning/wiki/Pretrained-models)
 
-[Тренировка (и для других языков)](https://github.com/vlomme/Multi-Tacotron-Voice-Cloning/wiki/%D0%A2%D1%80%D0%B5%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-(%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2))
+[Тренировка (и для других языков)](https://github.com/dedkoster/Multi-Tacotron-Voice-Cloning/wiki/%D0%A2%D1%80%D0%B5%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B0-(%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2))
 
-[Training (and for other languages)](https://github.com/vlomme/Multi-Tacotron-Voice-Cloning/wiki/Training-(and-for-other-languages))
+[Training (and for other languages)](https://github.com/dedkoster/Multi-Tacotron-Voice-Cloning/wiki/Training-(and-for-other-languages))
 
 ## Contribution
 for any questions, please [email me](niw9102@gmail.com)

@@ -34,9 +34,9 @@ if __name__ == '__main__':
     parser.add_argument("-t", "--text", 
                         default="Hello my friends. Я многоязычный синтез построенный на tacotron. Шла саша по шоссе и сосала сушку",
                         help="Text") 
-    parser.add_argument("-p", "--path_wav", type=Path, 
-                        default="ex.wav",
-                        help="wav file")                           
+    parser.add_argument("-p", "--path_embeds", type=Path, 
+                        default="voice_embeds.pickle",
+                        help="voice embeddings")                           
     args = parser.parse_args()
     print_args(args, parser)
     if not args.no_sound:
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     #message = "Reference voice: enter an audio filepath of a voice to be cloned(Введите путь до клонируемого файла, например ex.wav) (mp3, " \
     #          "wav, m4a, flac, ...):\n"
     #in_fpath = Path(input(message).replace("\"", "").replace("\'", ""))
-    in_fpath = args.path_wav
+    in_fpath = args.path_embeds
 
     with open(in_fpath, 'rb') as f:
         embeds = pickle.load(f)
